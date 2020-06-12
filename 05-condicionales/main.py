@@ -147,10 +147,34 @@ else: print("No esta en edad de trabajar")
 print("\n----------------SEXTO EJEMPLO -------------") 
 
 
-pais="Alemania"
+pais="España"
 
 if pais=="Mexico" or pais=="España" or pais=="Colombia":
         print(f"{pais} es un pais de habla hispana")
 
 else:
     print(f"{pais} no es de habla hispana")        
+
+
+#Ejemplo 7
+print("\n----------------SEPTIMO EJEMPLO -------------")     
+
+pais="España"
+
+if not (pais=="Mexico" or pais=="España" or pais=="Colombia"):
+        print(f"{pais} no es un pais de habla hispana")
+
+else:
+    print(f"{pais} si es de habla hispana")  
+
+
+#Ejemplo 8
+print("\n----------------SEPTIMO EJEMPLO -------------")     
+
+pais="Colombia"
+
+if pais!="Mexico" and pais!="España" and pais!="Colombia":
+        print(f"{pais} no es un pais de habla hispana")
+
+else:
+    print(f"{pais} si es de habla hispana")            
